@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    min-width: 200px;
+    cursor: pointer;
+    border-width: 0 !important;
+    color:whitesmoke;
+    height:25px;
+}
+.section--selected{
+    background-color: rgba(256, 256, 256, .3);
+    border-width: 3px !important;
+}
+.section:hover{
+    background-color: rgba(256, 256, 256, .3);
+    border-width: 3px !important;
+}
+.section >h4{
+     font-size: 14px;
+     margin-left: 15px;
+}

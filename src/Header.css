@@ -1,0 +1,63 @@
+.header__left>img{
+    object-fit: contain;
+    height: 45px;
+    margin-left: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    height: 62px;
+}
+.header__left{
+    display: flex;
+    align-items: center ;
+}
+.header__menu{
+    color:whitesmoke;
+}
+.header__menu:hover{
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, .3) !important;
+}
+.header__middle{
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    background-color:rgba(256, 256, 256, 0.35);
+    padding: 10px;
+    border-radius: 8px;
+    height: 27px;
+}
+.header__middle > .MuiSvgIcon-root{
+    color: whitesmoke;
+    background-size: 60px;
+}
+.header__middle > .MuiSvgIcon-root:hover{
+
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, .25) !important;
+}
+.header__middle >input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    color: whitesmoke !important;
+    font-weight:600;
+    background-color: transparent;
+}
+.header__rightIcon{
+    color: whitesmoke !important;
+    background-color: transparent !important;
+}
+.header__rightIcon:hover{
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, .25) !important;
+}
+.header__right{
+display: flex;
+padding-right: 20px ;
+}
